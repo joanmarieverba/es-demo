@@ -11,7 +11,7 @@ $.ajax({
     console.log(response);
 
 // change string date to number
-    let i;
+ //   let i;
     for (i = 0; i < response.length; i++) {
         let date = response[i].published_at;
         let year = date.substring(0, 4);
@@ -32,6 +32,18 @@ $.ajax({
 
     console.log ("sorted", response);
 
+// display in reverse order
 
+    let displayDiv = $("<div>");
+    for (var i = response.length-1; i > -1; i--) {
+        let displayHeadline = $("<p>").text(response[i].title);
+        displayDiv.append(displayHeadline);
+    };
+
+
+    $("#headlines").append(displayDiv);
 
 });
+
+
+

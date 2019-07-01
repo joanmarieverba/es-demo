@@ -1,10 +1,15 @@
 body {
     /* background-color: azure; */
-    background: url('news.jpg'); 
+    background: url('background.jpg'); 
+    background-size: cover;
 }
 
-h1, h3 {
+h1 {
     color: white;
+}
+
+h3 {
+    color: midnightblue;
 }
 
 .text-center {

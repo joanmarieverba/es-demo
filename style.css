@@ -10,13 +10,13 @@ h1 {
 
 h3 {
     color: midnightblue;
-    text-indent: 25%;
     font-family: "Quicksand";
 }
 
 main {
     margin-top: 6vh;
     border: 1px solid black;
+    padding-left: 20%;
 
 }
 

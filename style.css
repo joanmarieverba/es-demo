@@ -12,7 +12,11 @@ h1 {
 h3 {
     color: midnightblue;
     font-family: "Quicksand";
-    font-weight: bold;
+    font-weight: bold;  
+}
+
+h4 {
+    color: white;
     
 }
 
